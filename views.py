@@ -12,7 +12,7 @@ def test():
 ## Return HTML content
 @views.route("/")
 def home():
-    return render_template("index.html", name="Suhas", company="SAAL")
+    return render_template("index.html", name="Suhas", company="SAAL", title="Suhas Learns Python")
 
 ## Read Query Parameter
 @views.route("/profile/<username>")

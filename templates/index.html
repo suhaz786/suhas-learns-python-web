@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page - {{title}}</title>
 </head>
 <body>
     <div>
         <!--block content is replacable generic content-->
         {% block content %}
-        <h1>Home page</h1>
-        <p>Hello, {{name}} from {{company}}</p>
+        <h1>Welcome to {{title}}</h1>
+        <p><h2>Hello, {{name}} from {{company}}</h2></p>
         {% endblock %}
     </div>
     <!-- Add JS to the UI-->
